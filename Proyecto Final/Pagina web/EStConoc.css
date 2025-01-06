@@ -1,0 +1,197 @@
+/*Barra de navegacion principal*/
+.enc{
+    border-bottom: 1px solid blue;
+}
+#Im1{
+	width: 100px;
+	height: 100px;
+}
+.enc nav{
+    display: flex;
+    justify-content: space-around;
+}
+.enc nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enc a{
+    text-decoration: none;
+    font-family: sans-serif;
+    display: block;
+    padding: 12px 20px;
+    display: block;
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.enc nav ul li{
+    margin: 2px;
+}
+.enc nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.enc nav ul li ul{
+    position: absolute;
+}
+.enc nav ul li ul li{
+    margin: 0;
+    width: 120px;
+    position: relative;
+    border: 1px solid lightgray;
+    background-color: beige;
+    text-align: left;
+}
+.enc nav ul li ul li a{
+    font-size: 14px;
+    text-decoration: none;
+}
+.enc nav ul li ul li:hover{
+    width: 120px;
+    position: relative;
+    background-color: beige;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.enc nav ul li ul li:first-child{
+    margin-top: 3px;
+    width: 120px;
+    position: relative;
+    border-top: 3px solid orange;
+}
+.enc nav ul li ul{
+    display: none;
+}
+.enc nav ul li:hover  ul{
+    display: block;
+}
+.enc nav ul #link2{
+    background-color: aqua;
+}
+.enc ul li:hover{
+    background-color: aqua;
+}
+/*Conocenos principal*/
+@font-face {
+    font-family: "titprin";
+    src: url(FuenteFredoka/FredokaOne-Regular.ttf);
+}
+.titulos{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'titprin', cursive;
+    background-color:aquamarine;
+    padding: 5px;
+    margin-top: 10px;
+}
+.cont{
+    width: 100%;
+    text-align: center;
+}
+.cont ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.cont li{
+    margin: 50px;
+    border-top: 1px solid darkgrey ;
+    border-bottom: 1px solid darkgrey;
+    padding: 10px;
+}
+@font-face {
+    font-family: "TextMed";
+    src: url(Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+.cont a{
+    text-decoration: none;
+    color: black;
+    font-family: "TextMed";
+    font-size: 20px;
+}
+/*Datos de la academia*/
+#tit{
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif; 
+}
+.iti{
+    display: flex;
+    justify-content: left;
+}
+.iti img{
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+}
+.iti p{
+    margin-right: 40px;
+    line-height: 25px;
+    font-size: 17px;
+}
+.it2{
+    margin-right: 40px;
+    line-height: 25px;
+    font-size: 17px;
+}
+.pest{  
+    margin-top: 30px;
+}
+.item1 img{
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+.item1 p{
+    margin-left: 40px;
+    line-height: 25px;
+    font-size: 17px;
+}
+.item1 ul li{
+    margin-left: 40px;
+    line-height: 25px;
+    font-size: 17px; 
+}
+/*Ubicacion*/
+.ContUbi{
+    line-height: 25px;
+    font-size: 17px;
+}
+.ubi{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*Eventos*/
+.conteven p{
+    line-height: 25px;
+    font-size: 17px;  
+}
+#If1{
+    display: flex;
+    justify-content: center;
+}
+#If2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#If3{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Pie de pagina*/
+footer{
+	background-color: beige;
+	padding: 10px;
+	border-top: 10px solid black;
+	margin-top: 60px;
+}

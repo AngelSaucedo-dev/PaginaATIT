@@ -1,0 +1,127 @@
+/*Barra de navegacion principal y pie de pagina*/
+.enc{
+    border-bottom: 1px solid blue;
+}
+#Im1{
+	width: 100px;
+	height: 100px;
+}
+.enc nav{
+    display: flex;
+    justify-content: space-around;
+}
+.enc nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enc a{
+    text-decoration: none;
+    font-family: sans-serif;
+    display: block;
+    padding: 12px 20px;
+    display: block;
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.enc nav ul li{
+    margin: 2px;
+}
+.enc nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.enc nav ul li ul{
+    position: absolute;
+}
+.enc nav ul li ul li{
+    width: 120px;
+    position: relative;
+    border: 1px solid lightgray;
+    background-color: beige;
+    text-align: left;
+    margin: 0;
+}
+.enc nav ul li ul li:first-child{
+    margin-top: 2px;
+}
+.enc nav ul li ul li a{
+    font-size: 14px;
+}
+.enc nav ul li ul li:hover{
+    width: 120px;
+    position: relative;
+    background-color: beige;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.enc nav ul li ul li:first-child{
+    width: 120px;
+    position: relative;
+    border-top: 3px solid orange;
+}
+.enc nav ul li ul{
+    display: none;
+}
+.enc nav ul li:hover ul{
+    display: block;
+}
+.enc nav ul #link4{
+    background-color: aqua;
+}
+.enc ul li:hover{
+    background-color: aqua;
+}
+/*Galeria de imagenes*/
+@font-face {
+    font-family: "titprin";
+    src: url(FuenteFredoka/FredokaOne-Regular.ttf);
+}
+.titulos{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'titprin', cursive;
+    background-color:aquamarine;
+    padding: 5px;
+	margin-top: 10px;
+}
+
+/*Videos*/
+#vids{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+#item{
+    margin-right: 40px;
+}
+/*Imagenes*/
+#imgs{
+    margin-top: 10px;
+}
+#imgs img{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+#imgs div{
+    display: flex;
+    justify-content: center;
+}
+#imgs p{
+    line-height: 25px;
+    font-size: 17px;
+}
+/*Pie de pagina*/
+footer{
+	background-color: beige;
+	padding: 10px;
+	border-top: 10px solid black;
+	margin-top: 60px;
+
+}

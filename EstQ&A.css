@@ -1,0 +1,185 @@
+/*Barra de navegacion y pie de pagina*/
+.enc{
+    border-bottom: 1px solid blue;
+}
+#Im1{
+	width: 100px;
+	height: 100px;
+}
+.enc nav{
+    display: flex;
+    justify-content: space-around;
+}
+.enc nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enc a{
+    text-decoration: none;
+    font-family: sans-serif;
+    display: block;
+    padding: 12px 20px;
+    display: block;
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.enc nav ul li{
+    margin: 2px;
+}
+.enc nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.enc nav ul li ul{
+    position: absolute;
+}
+.enc nav ul li ul li{
+    margin: 0;
+    width: 120px;
+    position: relative;
+    border: 1px solid lightgray;
+    background-color: beige;
+    text-align: left;
+}
+.enc nav ul li ul li a{
+    font-size: 14px;
+    text-decoration: none;
+}
+.enc nav ul li ul li:hover{
+    width: 120px;
+    position: relative;
+    background-color: beige;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.enc nav ul li ul li:first-child{
+    margin-top: 3px;
+    width: 120px;
+    position: relative;
+    border-top: 3px solid orange;
+}
+.enc nav ul li ul{
+    display: none;
+}
+.enc nav ul li:hover > ul{
+    display: block;
+}
+.enc nav ul #link7{
+    background-color: aqua;
+}
+.enc ul li:hover{
+    background-color: aqua;
+}
+/*Contactanos principal*/
+@font-face {
+    font-family: "titprin";
+    src: url(FuenteFredoka/FredokaOne-Regular.ttf);
+}
+.titulos{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'titprin', cursive;
+    background-color:aquamarine;
+    padding: 5px;
+    margin-top: 10px;
+}
+.cont{
+    width: 100%;
+    text-align: center;
+}
+.cont ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.cont li{
+    margin: 50px;
+    border-top: 1px solid darkgrey ;
+    border-bottom: 1px solid darkgrey;
+    padding: 10px;
+}
+.cont a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+/*Cuestionario*/
+.contcues{
+    margin-top: 10px;
+}
+.contcues p{
+    line-height: 25px;
+    font-size: 17px;
+}
+.contcues div{
+    font-size: 17px;
+    background-color: #f2f2f2;
+    padding-top: 3px;
+    padding-bottom: 30px;
+}
+.contcues div ol li input[type=radio]{
+    margin-left: 30px;
+}
+.contcues div ol li{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+@font-face {
+    font-family: "TitFor";
+    src: url(FuentesExternas/NerkoOne-Regular.ttf);
+}
+.contcues div h2{
+    text-align: center;
+    font-family: "TitFor";
+    font-size: 28px;
+}
+#parraf{
+    margin-left: 10px;
+    font-size: 17px;
+}
+input[type=button],select{
+    width: 90%;
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 8px 0;
+    border-radius: 4px;
+    padding: 14px 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+input[type=button]:hover{
+    background-color: orangered;
+    border: none;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
+#cuespdf iframe{
+    width: 500px;
+    height: 500px;
+}
+#cuespdf{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Pie de pagina*/
+footer{
+	background-color: beige;
+	padding: 10px;
+	border-top: 10px solid black;
+	margin-top: 60px;
+}

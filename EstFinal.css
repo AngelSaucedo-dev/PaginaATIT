@@ -1,0 +1,129 @@
+.enc{
+    border-bottom: 1px solid blue;
+}
+#Im1{
+	width: 100px;
+	height: 100px;
+}
+.enc nav{
+    display: flex;
+    justify-content: space-around;
+}
+.enc nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enc nav li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    display: block;
+    padding: 12px 20px;
+    display: block;
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.enc nav ul li{
+    margin: 2px;
+}
+.enc nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.enc nav ul li ul{
+    position: absolute;
+}
+.enc nav ul li ul li{
+    margin: 0;
+    width: 120px;
+    position: relative;
+    border: 1px solid lightgray;
+    background-color: beige;
+    text-align: left;
+    z-index: 1;
+}
+.enc nav ul li ul li a{
+    font-size: 14px;
+    text-decoration: none;
+}
+.enc nav ul li ul li:hover{
+    width: 120px;
+    position: relative;
+    background-color: beige;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.enc nav ul li ul li:first-child{
+    width: 120px;
+    position: relative;
+    border-top: 3px solid orange;
+    margin-top: 3px;
+}
+.enc nav ul li ul{
+    display: none;
+}
+.enc nav ul li:hover > ul{
+    display: block;
+}
+.enc nav ul #link1{
+    background-color: aqua;
+}
+.enc ul li:hover{
+    background-color: aqua;
+}
+/*Carrusel*/
+.carousel-inner > .item > img,.carousel-inner > .item > .container a > img{
+    width: 70%;
+    margin: auto;
+}
+.container{
+    margin-top: 40px;
+    z-index: 0;
+}
+/*Conteido*/
+@font-face {
+    font-family: "titprin";
+    src: url(FuenteFredoka/FredokaOne-Regular.ttf);
+}
+#titpr{
+    text-align: center;
+    font-family: sans-serif;
+    color: blue;
+    font-family: 'titprin', cursive;
+}
+@font-face {
+    font-family: "subt1";
+    src: url(Lobster/Lobster-Regular.ttfs);
+}
+.info h3{
+    text-align: center;
+    font-size: 24px;
+    font-family: "subt1";
+    font-weight: bold;
+}
+.info p{
+    margin-left: 80px;
+    margin-right: 80px;
+    line-height: 25px;
+    font-size: 17px;
+}
+/*Pie de pagina*/
+footer{
+	background-color: beige;
+	padding: 10px;
+	border-top: 10px solid black;
+	margin-top: 60px;
+}
+
+
+
+  
+
+
+
+
+

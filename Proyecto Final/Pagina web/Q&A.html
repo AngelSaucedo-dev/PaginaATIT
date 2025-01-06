@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="es">
+<head>
+	<title>Q&A | ATIT</title>
+	<link rel="shortcut icon" type="image" href="Imagenes/UPSLP.png">
+	<link rel="stylesheet" type="text/css" href="EstQ&A.css">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	
+	<script type="text/javascript" src="js/jquery/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery-ui-1.8.17.custom.min.js"></script>
+	<script type="text/javascript" src="jspdf.js"></script>
+	<script type="text/javascript" src="jspdf.plugin.addimage.js"></script>
+	<script type="text/javascript" src="jspdf.plugin.standard_fonts_metrics.js"></script>
+	<script type="text/javascript" src="jspdf.plugin.split_text_to_size.js"></script>
+	<script type="text/javascript" src="jspdf.plugin.from_html.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="enc">
+        <nav>
+            <div>
+                <img src="Imagenes/atit.jpg" usemap="#Log1" id="Im1">
+			    <map name="Log1">
+				    <area shape="rect" coords="0,0,100,100" href="index.html">
+			    </map>
+            </div>
+            <ul>
+                <li id="link1"><a href="index.html">Inicio</a></li>
+                <li id="link2"><a href="Conocenos.html">Conocenos</a>
+                    <ul>
+                        <li><a href="ConDatosAca.html">Datos de la academia</a></li>
+                        <li><a href="ConReservar.html">Reservar citas y ubicacion</a></li>
+                        <li><a href="ConEventos.html">Eventos</a></li>
+                    </ul>
+                </li>
+                <li id="link3"><a href="Docentes.html">Docentes</a>
+                    <ul>
+                        <li><a href="DocPerfil.html">Perfil academico</a></li>
+                        <li><a href="DocTutorias.html">Tutorias</a></li>
+                        <li><a href="DocProyecto.html">Proyectos</a></li>
+                    </ul>
+                </li>
+                <li id="link4"><a href="Galeria.html">Galeria</a></li>
+                <li id="link5"><a href="Contactanos.html">Contactanos</a>
+                    <ul>
+                        <li><a href="ContRedesS.html">Redes sociales</a></li>
+                        <li><a href="ContFormulario.html">Contacto</a></li>
+                        <li><a href="ContForos.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li id="link6"><a href="Alumnos.html">Alumnos</a>
+                    <ul>
+                        <li><a href="AlumEgrIn.html">Egresados</a></li>
+                        <li><a href="AlumREsidencia.html">Residencia</a></li>
+                        <li><a href="AlumBolsaTra.html">Bolsa de trabajo</a></li>
+                    </ul>
+                </li>
+                <li id="link7"><a href="Q&A.html">Cuestionario</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <script src="JSProFin.js"></script>
+    <div class="titulos">
+        <h2>Cuestionario</h2>
+    </div>
+    <div class="contcues">
+        <p>A continuacion se planteara un cuestionario, con un total de 10 preguntas referentes a la academia de ATIT, para usar estos medio digitales 
+        como alternativa al uso del papel</p>
+        <div>
+            <h2>Cuestionario academia de ATIT: </h2>
+            <p id="parraf">Contesta de forma correcta las siguientes preguntas: </p>
+            <ol>
+                <li>¿Que es ATIT?</li>
+                    <input type="radio" name="r1" id="r1" value="1">Academia de Tecnologias de la Informacion y Telematica <br>
+                    <input type="radio" name="r1" id="r1" value="0">Asociacion de Tecnicas Informaticas y Teorias <br>
+                    <input type="radio" name="r1" id="r1" value="0">Academia de Tecnicas Industriales y Tecnologias <br>
+                <li>¿Cuantos docentes de hora clase hay en ATIT?</li>
+                    <input type="radio" name="r2" id="r2" value="0">36 <br>
+                    <input type="radio" name="r2" id="r2" value="0">20 <br>
+                    <input type="radio" name="r2" id="r2" value="1">28 <br>
+                <li>¿Que carreras hay en ATIT?</li>
+                    <input type="radio" name="r3" id="r3" value="0">ITI, ISTI <br>
+                    <input type="radio" name="r3" id="r3" value="0">ISTI,ITMA <br>
+                    <input type="radio" name="r3" id="r3" value="1">ITI,ITEM <br>
+                <li>¿Quien es el encargado de ATIT?</li>
+                    <input type="radio" name="r4" id="r4" value="0">Dr. Julian Perez Benitez <br>
+                    <input type="radio" name="r4" id="r4" value="1">Dr. Francisco Cruz Ordaz<br>
+                    <input type="radio" name="r4" id="r4" value="0">Dr. Luis Fernando Ramirez <br>
+                <li>¿Que estudio minimo necesitas un maestro para formar parte de ATIT?</li>
+                    <input type="radio" name="r5" id="r5" value="1">Maestria <br>
+                    <input type="radio" name="r5" id="r5" value="0">Licenciatura <br>
+                    <input type="radio" name="r5" id="r5" value="0">Doctorado <br>
+                <li>¿Quien fundo ATIT?</li>
+                    <input type="radio" name="r6" id="r6" value="1">Dr. Francisco Cruz Ordaz y la maestra Patricia Espinoza<br>
+                    <input type="radio" name="r6" id="r6" value="0">Dr. Jose Orozco Pacheco <br>
+                    <input type="radio" name="r6" id="r6" value="0">Dr. Julian Sepulveda y la maestra Claudia Esequiel <br>
+                <li>¿Cuantos alumnos de la academia de ATIT se reportaron en octubre de 2022?</li>
+                    <input type="radio" name="r7" id="r7" value="0">900 Alumnos <br>
+                    <input type="radio" name="r7" id="r7" value="1">707 alumnos <br>
+                    <input type="radio" name="r7" id="r7" value="0">786 Alumnos <br>
+                <li>¿Que significa ITI?</li>
+                    <input type="radio" name="r8" id="r8" value="0">Ingenieria en Temas Infromaticos <br>
+                    <input type="radio" name="r8" id="r8" value="0">Ingenieria en Tecnicas Innovadoras <br>
+                    <input type="radio" name="r8" id="r8" value="1">Ingenieria en Tecnologias de la Informacion <br>
+                <li>¿Cuntos laboratoristas hay?</li>
+                    <input type="radio" name="r9" id="r9" value="0">3 <br>
+                    <input type="radio" name="r9" id="r9" value="0">8 <br>
+                    <input type="radio" name="r9" id="r9" value="1">4 <br>
+                <li>¿En que carrera de la academia ATIT hay mas alumnos?</li>
+                    <input type="radio" name="r10" id="r10" value="0">ITEM <br>
+                    <input type="radio" name="r10" id="r10" value="1">ITI <br>
+                    <input type="radio" name="r10" id="r10" value="0">Hay la misma cantidad de alumnos en ambas carreras <br>
+            </ol>
+            <div class="botones"><input type="button" value="Obtener total" onclick="leer()"></div>
+            <p>Tu puntacion de este cuestionario fue de:  </p>
+            <p id="total">  </p>
+            <p id="comentario"> </p>
+            <div class="botones"><input type="button" value="Ver resultados" onclick="generar()"><br></div>
+            <div id="cuespdf">
+                <iframe frameborder="0"></iframe>
+            </div>
+        </div>
+        
+        <script>
+          function generar(){
+          var doc = new jsPDF();
+          doc.setFontSize(40);
+          doc.setTextColor(244,127,23);
+          doc.text(50, 20, "Formulario ATIT");
+          doc.setTextColor(17, 122, 209);
+          doc.setFontSize(30);
+          doc.text(35, 35, "Respuestas del cuestionario"); 
+          doc.setTextColor(0,0,0);
+          doc.setFontSize(10);
+          doc.text(20, 50, "Pregunta 1 \r R=A");
+          doc.text(20, 70, "Pregunta 2 \r R=C");
+          doc.text(20, 90, "Pregunta 3 \r R=C");
+          doc.text(20, 110,"Pregunta 4 \r R=B");
+          doc.text(20, 130,"Pregunta 5 \r R=A" );
+          doc.text(20, 150,"Pregunta 6 \r R=A" );
+          doc.text(20, 170,"Pregunta 7 \r R=B" );
+          doc.text(20, 190,"Pregunta 8 \r R=C" );
+          doc.text(20, 210,"Pregunta 9 \r R=C" );
+          doc.text(20, 230,"Pregunta 10 \r R=A");
+          var string = doc.output('datauristring');
+          $('iframe').attr('src', string);
+        }
+        </script>
+    </div>     
+	<footer>
+		Urbano Villalón num. 500, Col. La Ladrillera, San Luis Potosí, S.L.P México,C.P. 78363 Conmutador. (444)870-21-00 Atención Politécnica: politecnica@upslp.edu.mx, <a href="ContRedesS.html">Siguenos en nuestras redes sociales</a>
+	</footer>
+</body>
+</html>

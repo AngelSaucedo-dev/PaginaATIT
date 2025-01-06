@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario | ATIT</title>
+    <link rel="shortcut icon" type="image" href="Imagenes/UPSLP.png">
+    <link rel="stylesheet" href="EstContactanos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="enc">
+        <nav>
+            <div>
+                <img src="Imagenes/atit.jpg" usemap="#Log1" id="Im1">
+			    <map name="Log1">
+				    <area shape="rect" coords="0,0,100,100" href="index.html">
+			    </map>
+            </div>
+            <ul>
+                <li id="link1"><a href="index.html">Inicio</a></li>
+                <li id="link2"><a href="Conocenos.html">Conocenos</a>
+                    <ul>
+                        <li><a href="ConDatosAca.html">Datos de la academia</a></li>
+                        <li><a href="ConReservar.html">Reservar citas y ubicacion</a></li>
+                        <li><a href="ConEventos.html">Eventos</a></li>
+                    </ul>
+                </li>
+                <li id="link3"><a href="Docentes.html">Docentes</a>
+                    <ul>
+                        <li><a href="DocPerfil.html">Perfil academico</a></li>
+                        <li><a href="DocProyecto.html">Proyectos</a></li>
+                    </ul>
+                </li>
+                <li id="link4"><a href="Galeria.html">Galeria</a></li>
+                <li id="link5"><a href="Contactanos.html">Contactanos</a>
+                    <ul>
+                        <li><a href="ContRedesS.html">Redes sociales</a></li>
+                        <li><a href="ContFormulario.html">Contacto</a></li>
+                        <li><a href="ContForos.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li id="link6"><a href="Alumnos.html">Alumnos</a>
+                    <ul>
+                        <li><a href="AlumEgrIn.html">Egresados</a></li>
+                        <li><a href="AlumREsidencia.html">Residencia</a></li>
+                        <li><a href="AlumBolsaTra.html">Bolsa de trabajo</a></li>
+                    </ul>
+                </li>
+                <li id="link7"><a href="Q&A.html">Cuestionario</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <script src="JSProFin.js"></script>
+	<div class="titulos">
+		<h2>Contacto</h2>
+	</div>
+    <div class="contcont">
+        <p>
+            En caso de tener una duda referente a algun tema acerca de la academi ade ATIT, puede mandar un correcto directo 
+            a alguien que pueda asesorarlo y ayudarlo en los temas que tenga duda
+        </p>
+        <div class="formus">
+            <form action="mensajero.php" method="post">
+                <label for="nombre">Nombre de Usuario</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+    
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" placeholder="Escribe tu E-mail">
+    
+                <label for="mensaje">Comentario</label></br>
+                <textarea id="mensaje" name="mensaje"></textarea>
+      
+                <input type="submit" id="submit" name="submit" value="Enviar formulario" onclick="subido()">
+            </form>
+        </div>
+    </div>
+    <footer>
+		Urbano Villalón num. 500, Col. La Ladrillera, San Luis Potosí, S.L.P México,C.P. 78363 Conmutador. (444)870-21-00 Atención Politécnica: politecnica@upslp.edu.mx, <a href="ContRedesS.html">Siguenos en nuestras redes sociales</a>
+	</footer>
+</body>
+</html>
